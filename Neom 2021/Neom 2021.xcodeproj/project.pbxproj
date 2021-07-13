@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BE1A43326318DF6003F9DBF /* Neom 2021 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3BE1A43226318DF6003F9DBF /* Neom 2021 WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3BE1A43826318DF8003F9DBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BE1A43726318DF8003F9DBF /* Assets.xcassets */; };
+		3BE1A43F26318DF8003F9DBF /* Neom 2021 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3BE1A43E26318DF8003F9DBF /* Neom 2021 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3BE1A44426318DF8003F9DBF /* Neom_2021App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1A44326318DF8003F9DBF /* Neom_2021App.swift */; };
+		3BE1A44626318DF8003F9DBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1A44526318DF8003F9DBF /* ContentView.swift */; };
+		3BE1A44826318DF8003F9DBF /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1A44726318DF8003F9DBF /* NotificationController.swift */; };
+		3BE1A44A26318DF8003F9DBF /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1A44926318DF8003F9DBF /* NotificationView.swift */; };
+		3BE1A44C26318DF8003F9DBF /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1A44B26318DF8003F9DBF /* ComplicationController.swift */; };
+		3BE1A44E26318DF9003F9DBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BE1A44D26318DF9003F9DBF /* Assets.xcassets */; };
+		3BE1A45126318DF9003F9DBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BE1A45026318DF9003F9DBF /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BE1A43426318DF6003F9DBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BE1A42826318DF5003F9DBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BE1A43126318DF6003F9DBF;
+			remoteInfo = "Neom 2021 WatchKit App";
+		};
+		3BE1A44026318DF8003F9DBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BE1A42826318DF5003F9DBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BE1A43D26318DF8003F9DBF;
+			remoteInfo = "Neom 2021 WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3BE1A45926318DF9003F9DBF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3BE1A43F26318DF8003F9DBF /* Neom 2021 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BE1A45D26318DF9003F9DBF /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3BE1A43326318DF6003F9DBF /* Neom 2021 WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3BE1A42E26318DF5003F9DBF /* Neom 2021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Neom 2021.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BE1A43226318DF6003F9DBF /* Neom 2021 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Neom 2021 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BE1A43726318DF8003F9DBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BE1A43926318DF8003F9DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BE1A43E26318DF8003F9DBF /* Neom 2021 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Neom 2021 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BE1A44326318DF8003F9DBF /* Neom_2021App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neom_2021App.swift; sourceTree = "<group>"; };
+		3BE1A44526318DF8003F9DBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3BE1A44726318DF8003F9DBF /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		3BE1A44926318DF8003F9DBF /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		3BE1A44B26318DF8003F9DBF /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		3BE1A44D26318DF9003F9DBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BE1A45026318DF9003F9DBF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3BE1A45226318DF9003F9DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BE1A45326318DF9003F9DBF /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BE1A43B26318DF8003F9DBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BE1A42726318DF5003F9DBF = {
+			isa = PBXGroup;
+			children = (
+				3BE1A43626318DF6003F9DBF /* Neom 2021 WatchKit App */,
+				3BE1A44226318DF8003F9DBF /* Neom 2021 WatchKit Extension */,
+				3BE1A42F26318DF6003F9DBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BE1A42F26318DF6003F9DBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BE1A42E26318DF5003F9DBF /* Neom 2021.app */,
+				3BE1A43226318DF6003F9DBF /* Neom 2021 WatchKit App.app */,
+				3BE1A43E26318DF8003F9DBF /* Neom 2021 WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BE1A43626318DF6003F9DBF /* Neom 2021 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				3BE1A43726318DF8003F9DBF /* Assets.xcassets */,
+				3BE1A43926318DF8003F9DBF /* Info.plist */,
+			);
+			path = "Neom 2021 WatchKit App";
+			sourceTree = "<group>";
+		};
+		3BE1A44226318DF8003F9DBF /* Neom 2021 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3BE1A44326318DF8003F9DBF /* Neom_2021App.swift */,
+				3BE1A44526318DF8003F9DBF /* ContentView.swift */,
+				3BE1A44726318DF8003F9DBF /* NotificationController.swift */,
+				3BE1A44926318DF8003F9DBF /* NotificationView.swift */,
+				3BE1A44B26318DF8003F9DBF /* ComplicationController.swift */,
+				3BE1A44D26318DF9003F9DBF /* Assets.xcassets */,
+				3BE1A45226318DF9003F9DBF /* Info.plist */,
+				3BE1A45326318DF9003F9DBF /* PushNotificationPayload.apns */,
+				3BE1A44F26318DF9003F9DBF /* Preview Content */,
+			);
+			path = "Neom 2021 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		3BE1A44F26318DF9003F9DBF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3BE1A45026318DF9003F9DBF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BE1A42D26318DF5003F9DBF /* Neom 2021 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BE1A45E26318DF9003F9DBF /* Build configuration list for PBXNativeTarget "Neom 2021" */;
+			buildPhases = (
+				3BE1A42C26318DF5003F9DBF /* Resources */,
+				3BE1A45D26318DF9003F9DBF /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BE1A43526318DF6003F9DBF /* PBXTargetDependency */,
+			);
+			name = "Neom 2021";
+			productName = "Neom 2021";
+			productReference = 3BE1A42E26318DF5003F9DBF /* Neom 2021.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		3BE1A43126318DF6003F9DBF /* Neom 2021 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BE1A45A26318DF9003F9DBF /* Build configuration list for PBXNativeTarget "Neom 2021 WatchKit App" */;
+			buildPhases = (
+				3BE1A43026318DF6003F9DBF /* Resources */,
+				3BE1A45926318DF9003F9DBF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BE1A44126318DF8003F9DBF /* PBXTargetDependency */,
+			);
+			name = "Neom 2021 WatchKit App";
+			productName = "Neom 2021 WatchKit App";
+			productReference = 3BE1A43226318DF6003F9DBF /* Neom 2021 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		3BE1A43D26318DF8003F9DBF /* Neom 2021 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BE1A45626318DF9003F9DBF /* Build configuration list for PBXNativeTarget "Neom 2021 WatchKit Extension" */;
+			buildPhases = (
+				3BE1A43A26318DF8003F9DBF /* Sources */,
+				3BE1A43B26318DF8003F9DBF /* Frameworks */,
+				3BE1A43C26318DF8003F9DBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Neom 2021 WatchKit Extension";
+			productName = "Neom 2021 WatchKit Extension";
+			productReference = 3BE1A43E26318DF8003F9DBF /* Neom 2021 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BE1A42826318DF5003F9DBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					3BE1A42D26318DF5003F9DBF = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					3BE1A43126318DF6003F9DBF = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					3BE1A43D26318DF8003F9DBF = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 3BE1A42B26318DF5003F9DBF /* Build configuration list for PBXProject "Neom 2021" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BE1A42726318DF5003F9DBF;
+			productRefGroup = 3BE1A42F26318DF6003F9DBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BE1A42D26318DF5003F9DBF /* Neom 2021 */,
+				3BE1A43126318DF6003F9DBF /* Neom 2021 WatchKit App */,
+				3BE1A43D26318DF8003F9DBF /* Neom 2021 WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BE1A42C26318DF5003F9DBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BE1A43026318DF6003F9DBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE1A43826318DF8003F9DBF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BE1A43C26318DF8003F9DBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE1A45126318DF9003F9DBF /* Preview Assets.xcassets in Resources */,
+				3BE1A44E26318DF9003F9DBF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BE1A43A26318DF8003F9DBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE1A44826318DF8003F9DBF /* NotificationController.swift in Sources */,
+				3BE1A44626318DF8003F9DBF /* ContentView.swift in Sources */,
+				3BE1A44C26318DF8003F9DBF /* ComplicationController.swift in Sources */,
+				3BE1A44426318DF8003F9DBF /* Neom_2021App.swift in Sources */,
+				3BE1A44A26318DF8003F9DBF /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BE1A43526318DF6003F9DBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BE1A43126318DF6003F9DBF /* Neom 2021 WatchKit App */;
+			targetProxy = 3BE1A43426318DF6003F9DBF /* PBXContainerItemProxy */;
+		};
+		3BE1A44126318DF8003F9DBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BE1A43D26318DF8003F9DBF /* Neom 2021 WatchKit Extension */;
+			targetProxy = 3BE1A44026318DF8003F9DBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3BE1A45426318DF9003F9DBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BE1A45526318DF9003F9DBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BE1A45726318DF9003F9DBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Neom 2021 WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 8W29FV33ZU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Neom 2021 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Empower.Neom-2021.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		3BE1A45826318DF9003F9DBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Neom 2021 WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 8W29FV33ZU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Neom 2021 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Empower.Neom-2021.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		3BE1A45B26318DF9003F9DBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8W29FV33ZU;
+				IBSC_MODULE = Neom_2021_WatchKit_Extension;
+				INFOPLIST_FILE = "Neom 2021 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Empower.Neom-2021.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		3BE1A45C26318DF9003F9DBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8W29FV33ZU;
+				IBSC_MODULE = Neom_2021_WatchKit_Extension;
+				INFOPLIST_FILE = "Neom 2021 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Empower.Neom-2021.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		3BE1A45F26318DF9003F9DBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8W29FV33ZU;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Empower.Neom-2021";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3BE1A46026318DF9003F9DBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8W29FV33ZU;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Empower.Neom-2021";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BE1A42B26318DF5003F9DBF /* Build configuration list for PBXProject "Neom 2021" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BE1A45426318DF9003F9DBF /* Debug */,
+				3BE1A45526318DF9003F9DBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BE1A45626318DF9003F9DBF /* Build configuration list for PBXNativeTarget "Neom 2021 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BE1A45726318DF9003F9DBF /* Debug */,
+				3BE1A45826318DF9003F9DBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BE1A45A26318DF9003F9DBF /* Build configuration list for PBXNativeTarget "Neom 2021 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BE1A45B26318DF9003F9DBF /* Debug */,
+				3BE1A45C26318DF9003F9DBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BE1A45E26318DF9003F9DBF /* Build configuration list for PBXNativeTarget "Neom 2021" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BE1A45F26318DF9003F9DBF /* Debug */,
+				3BE1A46026318DF9003F9DBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BE1A42826318DF5003F9DBF /* Project object */;
+}
